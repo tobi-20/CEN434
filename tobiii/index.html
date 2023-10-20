@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="dcit.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="primary-heading">
+      <div class="img-div">
+        <img
+          src="img/Law-logo-design-template-on-transparent-background-PNG.png"
+          alt="logo"
+          class="img-logo"
+        />
+      </div>
+      <div class="secondary-div">
+        <p class="heading-secondary">The Young lawyers club</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container-1 cta">
+        <div class="cta-text-box">
+          <h2 class="heading-tertiary">Let's get to know you</h2>
+          <form class="cta-form" action="#">
+            <div>
+              <label for="first-name">First name</label>
+              <input id="first-name" type="text" placeholder="John" required />
+            </div>
+            <div>
+              <label for="last-name">Last name</label>
+              <input id="last-name" type="text" placeholder="Smith" required />
+            </div>
+            <div>
+              <label for="matric-no">Matriculation Number</label>
+              <input
+                id="matric-no"
+                type="text"
+                placeholder="20XXXXXXXX"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="email">Email address</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="me@example.com"
+                required
+              />
+            </div>
+            <div>
+              <label for="hall">Hall</label>
+              <input type="text" id="hall" required />
+            </div>
+            <div>
+              <label for="room-no">Room Number</label>
+              <input type="text" id="room-no" required />
+            </div>
+            <div class="gender-options">
+              <legend>Gender:</legend>
+
+              <p class="radio">
+                <label for="sexf">
+                  <input type="radio" name="gender" id="sexf" value="female" />
+                  Female</label
+                >
+                <label for="sexm">
+                  <input type="radio" name="gender" id="sexm" value="male" />
+                  Male</label
+                >
+              </p>
+            </div>
+
+            <div>
+              <label for="birthdate">Date of Birth</label>
+              <input type="date" id="birthdate" required />
+            </div>
+
+            <button href="#" class="btn btn--form">Sign up now</button>
+
+            <!-- <input type="checkbox" />
+          <input type="number" /> -->
+            <blockquote class="catchy-quote">
+              "Justice is the constant and perpetual will to allot every man his
+              due."
+            </blockquote>
+          </form>
+        </div>
+        <div
+          class="cta-img-box"
+          role="image"
+          aria-label="The symbol of justice"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>
